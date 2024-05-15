@@ -1,0 +1,12 @@
+Title: Conclusion-and-reflection
+Date: 2024-05-13
+Category: Python
+Tags: pelican, python, dataviz, data-analysis, reflection, conclusion
+Slug: conclusion-and-reflection
+Authors: Julian Gutierrez
+
+Through this project I realized that everything very rarely goes however you plan it. Every step of this project, I imagined that it would go in a different way, and in every step I was wrong. From believing that I would use Spotify API more than I really did, to changing which data I included there was a lot of adversity in how I performed my work. Working with data is complicated work and it requires finese but it also requires you to be very flexible with how you do your work. Understanding the link between culutre and data is important and is a key component in understanding what computing in the humanities even is.
+
+There were a lot of challenges that I faced when doing my work, one of them specifically being unfinished data. Scavenging spotify and only being able to find 3 playlists out of 9 was not a good morale booster, infact, it only made me feel more lost and did left me with a lost feeling. Luckily enough, I remembered something my teaching assistant mentioned, which is Kaggle and through Kaggle I was able to finish my project with the missing data that I needed. I am sure that with more time I could have documented more recent data, but with time constraints this was simply not a possiblity, I would have loved to be able to assess the top hits of the 2010-2019 decade VS 2020-2029 decade, however, this is a project for the future time. I was not expecting Spotify to be so strict with their data and that is a challenge that really changed the way that I did things. Another key take away from doing this project is that computing in the humanities is a collaborative process, it is rarely something that can be done alone and even when it is possible to be done alone, it is something you should do with others. 
+
+Which leads me to my guidance on others who might want to utlize Spotify or this method of data gathering in their own project: collaborate with others and build off information that is already existant. Helping others and uplifting eachother rather than competing is a key point to our future is the reason that I was able to get all of this done in the first place. I am thankful for everything that I learned and has inspired me to be able to use data to understand the different variables that go into analyzing culture.
