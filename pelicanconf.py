@@ -1,6 +1,6 @@
 AUTHOR = 'Julian Gutierrez'
 SITENAME = 'Spotify Music Trends Reflecting Cultural Change'
-SITEURL = "https://JulianGut2.github.io/Spotify-Music-Trends-Reflecting-Cultural-Change"
+SITEURL = "https://juliangut2.github.io/Spotify-music-trends/"
 
 PATH = "content"
 
