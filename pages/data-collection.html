@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Data-Collection</title>
+        <link rel="stylesheet" href="https://JulianGut2.github.io/Spotify-Music-Trends-Reflecting-Cultural-Change/theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://JulianGut2.github.io/Spotify-Music-Trends-Reflecting-Cultural-Change/">Spotify Music Trends Reflecting Cultural Change</a></h1>
+                <nav><ul>
+                    <li><a href="https://JulianGut2.github.io/Spotify-Music-Trends-Reflecting-Cultural-Change/pages/conclusion-and-reflection.html">Conclusion-and-reflection</a></li>
+                    <li><a href="https://JulianGut2.github.io/Spotify-Music-Trends-Reflecting-Cultural-Change/pages/data-analysis.html">Data-Analysis</a></li>
+                    <li class="active"><a href="https://JulianGut2.github.io/Spotify-Music-Trends-Reflecting-Cultural-Change/pages/data-collection.html">Data-Collection</a></li>
+                    <li><a href="https://JulianGut2.github.io/Spotify-Music-Trends-Reflecting-Cultural-Change/pages/Introduction.html">Introduction</a></li>
+                    <li><a href="https://JulianGut2.github.io/Spotify-Music-Trends-Reflecting-Cultural-Change/category/python.html">Python</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Data-Collection</h1>
+    
+    <p>Initially for data collection &amp; curation, the idea was to utilize the <a href="https://developer.spotify.com/documentation/web-api/">SpotifyAPI</a>, using a provided clientID it should have been a clean case of utilizing the API to scrape and obtain some information based on the proposed question of music trends and cultural changes. Through various hoops of trial and error and heartbreak, the realization of the limitations of the SpotifyAPI began to settle in. Spotify is very protective of the information that you may obtain using their API, and my original plan of utilizing the API quickly became a constraint to this project as opposed to a tool, for example the SpotifyAPI will not directly give you the top songs currently at the charts, instead one work around that I quickly found was that Spotify curates playlists based on top songs. One example is a Spotify playlist where the top 50 songs in the globe are put into one playlist, and through these spotify curated playlists I began to look into these playlists for information in where I could group top songs and genres within a year span. My next hurdle in my data collection was the fact that not all of these Spotify playlists were avaliable, I was only notibaly able to access the Top Hits from the years 2011, 2018, and 2019, and through some searching this is when I found my next breakthrough </p>
+<p>Through searching similar data set ideas on Kaggle, one user currated data set stood out to my mission, I had found a data set with every top 100 song from each year ranging from <a href="https://www.kaggle.com/datasets/muhmores/spotify-top-100-songs-of-20152019/data">2010-2019</a>, which included the missing playlists curated from Spotify in an excel file in which allowed me t use python to sort and visualize the data, giving me the missing playlists and gave me the ability to create 9 graphs that illustrate the trends in music. </p>
+<p><a href="https://postimg.cc/LnD4cw9D"><img alt="Screenshot-2024-05-14-at-6-58-49-AM.png" src="https://i.postimg.cc/52dHCWDh/Screenshot-2024-05-14-at-6-58-49-AM.png"></a></p>
+<p>Here is an example of the code that I used in order to go through the spreadsheet and curate graphs that are tailored to show the trends that will be dicussed in the analysis section.</p>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://www.python.org/">Python.org</a></li>
+                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a rel="nofollow" href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
